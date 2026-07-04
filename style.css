@@ -1,8 +1,11 @@
 body {
-    background: #fbf9f6;
+    /*font-family: Arial, Helvetica, sans-serif;*/
+    font-family: Arial, Helvetica, sans-serif;
+    /*background-color: #d1bfa7;*/
+    background-color: #5c7285 ;
 }
 
-#container{
+.container{
     background-color: white;
     width: 40%;
     margin: 100px auto;
@@ -12,7 +15,7 @@ body {
     box-shadow: 0 10px 25px rgba(142, 134, 122, 0.15);
 }
 
-#content{
+.content{
     display: flex;
     align-items: flex-start;
 
@@ -39,7 +42,7 @@ body {
 }
 
 
-#btn-container{
+.btn-container{
     display : flex;
     flex-direction: column;
     gap: 15px;
@@ -47,12 +50,12 @@ body {
 
 }
 
-#list-wrapper{
+.list-wrapper{
     width: 70%;
 
 }
 
-#items-list{
+.items-list{
     width: 70%;
     height: 200px;
     display: flex;
@@ -60,6 +63,10 @@ body {
     background-color: #fdfcfb;
     border: 2px solid #c8c2b9;
     border-radius: 5px;
+    flex-direction: column;
+    overflow: scroll;
+    scroll-behavior: smooth;
+    list-style-type: none;
 
 }
 
@@ -75,7 +82,7 @@ h2{
 
 }
 
-#items-list{
+.items-list{
     margin-top: 0;
 }
 
@@ -95,4 +102,13 @@ button{
     font-size: 14px;
     box-shadow: 0 4px 10px rgba(111, 103, 92, 0.25);
 
+}
+button:hover{
+    transform: scale(1.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.btnDelete:hover{
+    background-color: #e57373
+    /*background-color: #b71c1c;*/
 }
