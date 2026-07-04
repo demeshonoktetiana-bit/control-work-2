@@ -1,0 +1,98 @@
+body {
+    background: #fbf9f6;
+}
+
+#container{
+    background-color: white;
+    width: 40%;
+    margin: 100px auto;
+    padding: 30px;
+    border: 1px solid #e6e1da;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(142, 134, 122, 0.15);
+}
+
+#content{
+    display: flex;
+    align-items: flex-start;
+
+}
+.pair-form{
+    display: flex;
+    gap: 80px;
+
+}
+
+#name-input{
+    width: 55%;
+    padding: 8px 5px;
+    font-size: 14px;
+    color: #4a443c;
+    background-color: #fdfcfb;
+    border-radius: 5px;
+    border: 2px solid #c8c2b9;
+
+}
+
+.btnDelete{
+    width: 80px;
+}
+
+
+#btn-container{
+    display : flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 35px;
+
+}
+
+#list-wrapper{
+    width: 70%;
+
+}
+
+#items-list{
+    width: 70%;
+    height: 200px;
+    display: flex;
+    justify-content: left;
+    background-color: #fdfcfb;
+    border: 2px solid #c8c2b9;
+    border-radius: 5px;
+
+}
+
+p {
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #5c554c;
+}
+
+h2{
+    color: #4a443c;
+    font-size: 25px;
+
+}
+
+#items-list{
+    margin-top: 0;
+}
+
+input:focus {
+    border-color: #6f675c;
+    outline: none;
+    box-shadow: 0 4px 10px rgba(111, 103, 92, 0.25);
+
+}
+
+button{
+    background-color: #8e867a;
+    color: white;
+    border: 2px solid #6f675c;
+    border-radius: 5px;
+    padding: 8px 16px;
+    font-size: 14px;
+    box-shadow: 0 4px 10px rgba(111, 103, 92, 0.25);
+
+}
