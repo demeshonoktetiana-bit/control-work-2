@@ -1,0 +1,54 @@
+@media screen and (max-width: 480px) {
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    width: 90%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+
+}
+.btn-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.btnDelete{
+    width: 100%;
+}
+
+
+.list-wrapper{
+    width: 100%;
+
+}
+.items-list{
+    margin: 0 auto;
+}
+.list-wrapper p {
+    margin-left: 35px;
+}
+
+.pair-form{
+    gap: 20px;
+}
+.btnAddPair{
+    width: 50%;
+}
+
+
+}
